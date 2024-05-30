@@ -1,0 +1,19 @@
+.fondonav{
+    background-color: rgb(255, 255, 255);
+}
+#navlinks{
+    color: white;
+}
+.titulo{
+    color: rgb(0, 149, 241);
+}
+.formulario{
+    color: rgb(0, 149, 241)
+}
+.btn{
+    background-color: rgb(0, 149, 241);
+    color: rgb(255, 255, 255);
+}
+.imggal{
+    margin: 10px;
+}
