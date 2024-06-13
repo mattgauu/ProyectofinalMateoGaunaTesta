@@ -1,0 +1,24 @@
+$colorprimario:white;
+$colorsecundario:rgb(0, 149, 241);
+.fondonav{
+    background-color:$colorprimario;
+    #navlinks{
+        color:$colorprimario   
+    }
+}
+.titulo{
+    color:$colorsecundario
+}
+.formulario{
+    color:$colorsecundario
+}
+.btn{
+    background-color:$colorsecundario;
+    color:$colorprimario;
+}
+.imggal{
+    margin: 10px;
+}
+.carda{
+    max-width: 540px
+}
