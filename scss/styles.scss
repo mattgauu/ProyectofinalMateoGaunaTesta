@@ -1,5 +1,9 @@
 $colorprimario:white;
 $colorsecundario:rgb(0, 149, 241);
+@mixin margenes($top, $bottom){
+    margin-top: $top;
+    margin-bottom: $bottom;
+}
 .fondonav{
     background-color:$colorprimario;
     #navlinks{
@@ -21,4 +25,10 @@ $colorsecundario:rgb(0, 149, 241);
 }
 .carda{
     max-width: 540px
+}
+#sobrenos{
+    @include margenes(50px,100px )
+}
+.promos{
+    @include margenes(0px,50px )
 }
